@@ -5,20 +5,26 @@
 // console.log('Hello Usia kamu Adalah ' + usia)
 // alert('Hello Usia kamu Adalah ' + usia)
 
-let nama = prompt('Mausukan Nama Anda!')
-let usia = prompt('Mausukan Usia Anda!')
-let TB = prompt('Mausukan Tiggi Badan Anda!')
-let BB = prompt('Mausukan Berat Badan Anda!')
-let pasangan = alert('Jomblo!! XIXIXIXI')
-pasangan = 'Tra ada'
+let nama = prompt('Masukan Nama Anda!')
+let usia = prompt('Masukan Usia Anda!')
+let TB = prompt('Masukan Tiggi Badan Anda!')
+let BB = prompt('Masukan Berat Badan Anda!')
+let pasangan =  prompt('Masukan Nama Pasangan Anda!')
+
+if (pasangan ==null){
+    pasangan = 'belum punya/jomblo'
+}   else {
+     pasangan = 'Adalah '+ pasangan
+}
 
 alert('Nama anda adalah ' + nama +
      ', usia anda adalah '+ usia + 
-     ', tiggi badan anda adalah ' + TB +
-      ', barat badan anda adalah ' + BB +
-       ' dan pasangan anda adalah ' + pasangan)
+     ', tiggi badan anda adalah  ' + TB +
+      ',cm barat badan anda adalah  ' + BB +
+       'kg dan pasangan anda  ' + pasangan)
 console.log('Nama anda adalah ' + nama+
     ', usia anda adalah '+ usia +
     ', tiggi badan anda adalah ' + TB +
     ', barat badan anda adalah ' + BB +
-    ' dan pasangan anda adalah ' + pasangan)
+    ' dan pasangan anda  ' + pasangan)
+
